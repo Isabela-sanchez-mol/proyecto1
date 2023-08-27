@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="style3.css">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
+    <title>Página Biomédica</title>
+  </head>
+  <body>
+    
+    <div class="head">
+
+      <div class="logo">
+        <a href="#">Logo</a>
+      </div>
+
+      <nav class="barrnav">
+        <a href="inicio">Inicio</a>
+        <a href="equipos">Equipos Biomédicos</a>
+      </nav>
+
+    </div>
+
+    <header class="content header">
+      <h2 id="inicio" class="tittle">Glucómetro</h2>
+      <p>
+          Es un instrumento de medida que se utiliza 
+          para obtener la concentración de glucosa 
+          en sangre (glucemia), de forma instantánea, 
+          en el domicilio del enfermo diabético, 
+          sin necesidad de tener que ir a un centro 
+          especializado.
+      </p>
+    </header>
+
+    <section class="content sau">
+      <h2 id="fotos" class="tittle">Fotos</h2>
+      <p>
+        A continuación, verás fotos tomadas directamente del 
+        laboratorio de ciencias biomédicas de la UAO, en las
+        que se muestra el glucómetro desde distintos ángulos.
+      </p>
+      
+      <div class="box-container">
+        <div class="box">
+          <img src="equi2/gluco1.jpg" alt="vista1">
+        </div>
+        
+        <div class="box-container">
+          <div class="box">
+            <img src="equi2/gluco2.jpg" alt="vista2">
+          </div>
+
+        <div class="box-container">
+          <div class="box">
+            <img src="equi2/gluco3.jpg" alt="vista3">
+          </div>
+
+        </div>    
+    </section>
+
+    <section class="content about">
+      <h2 class="tittle">Video</h2>
+      <p>
+        En este video podrás ver un breve tutorial
+        de como usar el glucómetro y además, una
+        descripción de sus partes.
+
+        <video src="" id="Video"></video>
+      </p>
+    </section>
+
+    <section class="content price">
+      <article class="contain">
+        <h2 class="tittle">Modelo 3D</h2>
+        <p>
+          Por medio del siguiente modelo 3D podrás
+          tener una idea más clara de como luce el
+          dispositivo.
+        </p>
+        <model-viewer alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum" src="shared-assets/models/NeilArmstrong.glb" ar environment-image="shared-assets/environments/moon_1k.hdr" poster="shared-assets/models/NeilArmstrong.webp" shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+
+      </article>
+    </section>
+  </body>
+</html>
